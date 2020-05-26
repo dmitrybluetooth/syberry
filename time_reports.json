@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "employee_id": 1,
+    "hours": 4.5,
+    "date": "2020-12-01"
+  },
+  {
+    "id": 2,
+    "employee_id": 1,
+    "hours": 7,
+    "date": "2020-12-02"
+  },
+  {
+    "id": 3,
+    "employee_id": 2,
+    "hours": 5.5,
+    "date": "2020-12-01"
+  },
+  {
+    "id": 4,
+    "employee_id": 2,
+    "hours": 6,
+    "date": "2020-12-02"
+  },
+  {
+    "id": 5,
+    "employee_id": 3,
+    "hours": 5,
+    "date": "2020-12-01"
+  },
+  {
+    "id": 6,
+    "employee_id": 4,
+    "hours": 7.5,
+    "date": "2020-12-01"
+  },
+  {
+    "id": 7,
+    "employee_id": 5,
+    "hours": 4,
+    "date": "2020-12-01"
+  },
+  {
+    "id": 8,
+    "employee_id": 1,
+    "hours": 5.234,
+    "date": "2020-12-03"
+  },
+  {
+    "id": 9,
+    "employee_id": 2,
+    "hours": 6.456,
+    "date": "2020-12-03"
+  },
+  {
+    "id": 10,
+    "employee_id": 3,
+    "hours": 7.567,
+    "date": "2020-12-03"
+  },
+  {
+    "id": 11,
+    "employee_id": 4,
+    "hours": 4.123,
+    "date": "2020-12-03"
+  },
+  {
+    "id": 12,
+    "employee_id": 5,
+    "hours": 8,
+    "date": "2020-12-04"
+  },
+  {
+    "id": 13,
+    "employee_id": 4,
+    "hours": 7.5,
+    "date": "2020-12-04"
+  },
+  {
+    "id": 14,
+    "employee_id": 3,
+    "hours": 8.5,
+    "date": "2020-12-04"
+  },
+  {
+    "id": 15,
+    "employee_id": 2,
+    "hours": 7,
+    "date": "2020-12-04"
+  },
+  {
+    "id": 16,
+    "employee_id": 1,
+    "hours": 6.6,
+    "date": "2020-12-04"
+  },
+  {
+    "id": 17,
+    "employee_id": 2,
+    "hours": 4.5,
+    "date": "2020-12-05"
+  },
+  {
+    "id": 18,
+    "employee_id": 2,
+    "hours": 5.8,
+    "date": "2020-12-06"
+  },
+  {
+    "id": 19,
+    "employee_id": 4,
+    "hours": 5.3,
+    "date": "2020-12-06"
+  },
+  {
+    "id": 20,
+    "employee_id": 3,
+    "hours": 6.456,
+    "date": "2020-12-06"
+  },
+  {
+    "id": 21,
+    "employee_id": 1,
+    "hours": 7,
+    "date": "2020-12-06"
+  },
+  {
+    "id": 22,
+    "employee_id": 5,
+    "hours": 5,
+    "date": "2020-12-06"
+  },
+  {
+    "id": 23,
+    "employee_id": 4,
+    "hours": 4.4,
+    "date": "2020-12-07"
+  },
+  {
+    "id": 24,
+    "employee_id": 2,
+    "hours": 5.5,
+    "date": "2020-12-07"
+  },
+  {
+    "id": 25,
+    "employee_id": 3,
+    "hours": 7.7,
+    "date": "2020-12-07"
+  },
+  {
+    "id": 26,
+    "employee_id": 1,
+    "hours": 6.6,
+    "date": "2020-12-07"
+  }
+]
