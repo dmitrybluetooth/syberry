@@ -52,69 +52,20 @@ if (empty($result))
     }
 }
 
-$query1 ="
+$arrDate = ['2020-12-01', '2020-12-02', '2020-12-03', '2020-12-04', '2020-12-05', '2020-12-06', '2020-12-07'];
+
+for ($i = 0; $i < count($arrDate); ++$i)
+{
+    $query ="
     select e.name, time_reports.hours, time_reports.date
     from time_reports
     join employees e on time_reports.employee_id = e.id
-    where date='2020-12-01'
+    where date='$arrDate[$i]'
     order by hours desc
     limit 3";
 
-$query2 ="
-    select e.name, time_reports.hours, time_reports.date
-    from time_reports
-    join employees e on time_reports.employee_id = e.id
-    where date='2020-12-02'
-    order by hours desc
-    limit 3";
-
-$query3 ="
-    select e.name, time_reports.hours, time_reports.date
-    from time_reports
-    join employees e on time_reports.employee_id = e.id
-    where date='2020-12-03'
-    order by hours desc
-    limit 3";
-
-$query4 ="
-    select e.name, time_reports.hours, time_reports.date
-    from time_reports
-    join employees e on time_reports.employee_id = e.id
-    where date='2020-12-04'
-    order by hours desc
-    limit 3";
-
-$query5 ="
-    select e.name, time_reports.hours, time_reports.date
-    from time_reports
-    join employees e on time_reports.employee_id = e.id
-    where date='2020-12-05'
-    order by hours desc
-    limit 3";
-
-$query6 ="
-    select e.name, time_reports.hours, time_reports.date
-    from time_reports
-    join employees e on time_reports.employee_id = e.id
-    where date='2020-12-06'
-    order by hours desc
-    limit 3";
-
-$query7 ="
-    select e.name, time_reports.hours, time_reports.date
-    from time_reports
-    join employees e on time_reports.employee_id = e.id
-    where date='2020-12-07'
-    order by hours desc
-    limit 3";
-
-$t1 = table($conn, $query1);
-$t2 = table($conn, $query2);
-$t3 = table($conn, $query3);
-$t4 = table($conn, $query4);
-$t5 = table($conn, $query5);
-$t6 = table($conn, $query6);
-$t7 = table($conn, $query7);
+    $t = table($conn, $query);
+}
 
 function table($conn, $query)
 {
