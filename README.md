@@ -1,5 +1,7 @@
 Console APP
 
+![alt tag](https://github.com/dmitrybluetooth/syberry/blob/master/result_cmd.jpg)
+
 The purpose of the task is to write a program that will fetch the information about the employees' time reports from the example  
 
 database and for each day of the week calculate the top 3 employees who have the highest average number of working hours reported on the corresponding weekday. 
@@ -58,18 +60,18 @@ Example of the output:
 
 The following is a list of requirements for the program: 
 
-# The output shall include the names of the people and their average working hours in parenthesis for that day rounded up to the 2 decimal points 
+1) The output shall include the names of the people and their average working hours in parenthesis for that day rounded up to the 2 decimal points 
 
-# The output shall include line items for all 7 weekdays  
+2) The output shall include line items for all 7 weekdays  
 
-# The program shall work correctly for the edge cases (for example, less than 3 employees in the database or no time reports for the day, etc.) 
+3) The program shall work correctly for the edge cases (for example, less than 3 employees in the database or no time reports for the day, etc.) 
 
-# The program shall output directly to the console with the formatting as in the example 
+4) The program shall output directly to the console with the formatting as in the example 
 
-# The program shall have a clear configuration section for the database connection 
+5) The program shall have a clear configuration section for the database connection 
 
-# The database tables and columns shall be named as defined in the example 
+6) The database tables and columns shall be named as defined in the example 
 
-# A sample SQL dump of the database for the testing may be provided together with the program but this is optional 
+7) A sample SQL dump of the database for the testing may be provided together with the program but this is optional 
 
-# The program shall be launchable from the console 
+8) The program shall be launchable from the console 
